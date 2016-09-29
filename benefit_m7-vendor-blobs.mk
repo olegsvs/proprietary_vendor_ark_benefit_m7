@@ -236,12 +236,17 @@ PRODUCT_COPY_FILES += \
     vendor/ark/benefit_m7/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
     vendor/ark/benefit_m7/proprietary/lib/hw/camera.mt6735m.so:system/lib/hw/camera.mt6735m.so \
     vendor/ark/benefit_m7/proprietary/lib64/hw/camera.mt6735m.so:system/lib64/hw/camera.mt6735m.so \
-#    vendor/ark/benefit_m7/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
-#    vendor/ark/benefit_m7/proprietary/lib64/libaudiocompensationfilter.so:system/lib64/libaudiocompensationfilter.so \
-#    vendor/ark/benefit_m7/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
-#    vendor/ark/benefit_m7/proprietary/lib64/libaudiocomponentengine.so:system/lib64/libaudiocomponentengine.so \
-#    vendor/ark/benefit_m7/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
-#    vendor/ark/benefit_m7/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
+    vendor/ark/benefit_m7/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
+    vendor/ark/benefit_m7/proprietary/lib64/libaudiocompensationfilter.so:system/lib64/libaudiocompensationfilter.so \
+    vendor/ark/benefit_m7/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
+    vendor/ark/benefit_m7/proprietary/lib64/libaudiocomponentengine.so:system/lib64/libaudiocomponentengine.so \
+    vendor/ark/benefit_m7/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
+    vendor/ark/benefit_m7/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
+    vendor/ark/benefit_m7/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
+    vendor/ark/benefit_m7/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
+    vendor/ark/benefit_m7/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
+    vendor/ark/benefit_m7/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
+    vendor/ark/benefit_m7/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
 #    vendor/ark/benefit_m7/proprietary/lib/libaudiopolicymanagercustom.so:system/lib/libaudiopolicymanagercustom.so \
 #    vendor/ark/benefit_m7/proprietary/lib64/libaudiopolicymanagercustom.so:system/lib64/libaudiopolicymanagercustom.so \
     vendor/ark/benefit_m7/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
