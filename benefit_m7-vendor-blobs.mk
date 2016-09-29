@@ -242,8 +242,8 @@ PRODUCT_COPY_FILES += \
     vendor/ark/benefit_m7/proprietary/lib64/libaudiocomponentengine.so:system/lib64/libaudiocomponentengine.so \
     vendor/ark/benefit_m7/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     vendor/ark/benefit_m7/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
-    vendor/ark/benefit_m7/proprietary/lib/libaudiopolicymanagercustom.so:system/lib/libaudiopolicymanagercustom.so \
-    vendor/ark/benefit_m7/proprietary/lib64/libaudiopolicymanagercustom.so:system/lib64/libaudiopolicymanagercustom.so \
+#    vendor/ark/benefit_m7/proprietary/lib/libaudiopolicymanagercustom.so:system/lib/libaudiopolicymanagercustom.so \
+#    vendor/ark/benefit_m7/proprietary/lib64/libaudiopolicymanagercustom.so:system/lib64/libaudiopolicymanagercustom.so \
     vendor/ark/benefit_m7/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/ark/benefit_m7/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
     vendor/ark/benefit_m7/proprietary/lib/libbwc.so:system/lib/libbwc.so \
