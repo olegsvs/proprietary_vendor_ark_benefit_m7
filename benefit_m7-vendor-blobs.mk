@@ -242,6 +242,8 @@ PRODUCT_COPY_FILES += \
     vendor/ark/benefit_m7/proprietary/lib64/libaudiocomponentengine.so:system/lib64/libaudiocomponentengine.so \
     vendor/ark/benefit_m7/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
     vendor/ark/benefit_m7/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
+    vendor/ark/benefit_m7/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
+    vendor/ark/benefit_m7/proprietary/lib64/libaudioutils.so:system/lib64/libaudioutils.so \
     vendor/ark/benefit_m7/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
     vendor/ark/benefit_m7/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/ark/benefit_m7/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
