@@ -60,14 +60,14 @@ PRODUCT_COPY_FILES += \
     vendor/ark/benefit_m7/proprietary/bin/s62xd:system/bin/s62xd \
     vendor/ark/benefit_m7/proprietary/lib/libhwm.so:system/lib/libhwm.so \
     vendor/ark/benefit_m7/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
-    vendor/ark/benefit_m7/proprietary/lib/hw/sensors.mt6735.so:system/lib/hw/sensors.mt6735.so \
-    vendor/ark/benefit_m7/proprietary/lib64/hw/sensors.mt6735.so:system/lib64/hw/sensors.mt6735.so \
+    vendor/ark/benefit_m7/proprietary/lib/hw/sensors.mt6735m.so:system/lib/hw/sensors.mt6735m.so \
+    vendor/ark/benefit_m7/proprietary/lib64/hw/sensors.mt6735m.so:system/lib64/hw/sensors.mt6735m.so \
     vendor/ark/benefit_m7/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/ark/benefit_m7/proprietary/bin/slpd:system/bin/slpd \
     vendor/ark/benefit_m7/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/ark/benefit_m7/proprietary/lib/libmnl.so:system/lib/libmnl.so \
-    vendor/ark/benefit_m7/proprietary/lib/hw/gps.mt6735.so:system/lib/hw/gps.mt6735.so \
-    vendor/ark/benefit_m7/proprietary/lib64/hw/gps.mt6735.so:system/lib64/hw/gps.mt6735.so \
+    vendor/ark/benefit_m7/proprietary/lib/hw/gps.mt6735m.so:system/lib/hw/gps.mt6735m.so \
+    vendor/ark/benefit_m7/proprietary/lib64/hw/gps.mt6735m.so:system/lib64/hw/gps.mt6735m.so \
     vendor/ark/benefit_m7/proprietary/xbin/mnld:system/xbin/mnld \
     vendor/ark/benefit_m7/proprietary/bin/fuelgauged:system/bin/fuelgauged \
     vendor/ark/benefit_m7/proprietary/bin/thermal_manager:system/bin/thermal_manager \
@@ -116,10 +116,10 @@ PRODUCT_COPY_FILES += \
     vendor/ark/benefit_m7/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
     vendor/ark/benefit_m7/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/ark/benefit_m7/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
-    vendor/ark/benefit_m7/proprietary/lib/hw/gralloc.mt6735.so:system/lib/hw/gralloc.mt6735.so \
-    vendor/ark/benefit_m7/proprietary/lib64/hw/gralloc.mt6735.so:system/lib64/hw/gralloc.mt6735.so \
-    vendor/ark/benefit_m7/proprietary/lib/hw/hwcomposer.mt6735.so:system/lib/hw/hwcomposer.mt6735.so \
-    vendor/ark/benefit_m7/proprietary/lib64/hw/hwcomposer.mt6735.so:system/lib64/hw/hwcomposer.mt6735.so \
+    vendor/ark/benefit_m7/proprietary/lib/hw/gralloc.mt6735m.so:system/lib/hw/gralloc.mt6735m.so \
+    vendor/ark/benefit_m7/proprietary/lib64/hw/gralloc.mt6735m.so:system/lib64/hw/gralloc.mt6735m.so \
+    vendor/ark/benefit_m7/proprietary/lib/hw/hwcomposer.mt6735m.so:system/lib/hw/hwcomposer.mt6735m.so \
+    vendor/ark/benefit_m7/proprietary/lib64/hw/hwcomposer.mt6735m.so:system/lib64/hw/hwcomposer.mt6735m.so \
     vendor/ark/benefit_m7/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
     vendor/ark/benefit_m7/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
     vendor/ark/benefit_m7/proprietary/bin/wmt_loader:system/bin/wmt_loader \
@@ -129,7 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/ark/benefit_m7/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/ark/benefit_m7/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
     vendor/ark/benefit_m7/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
-    vendor/ark/benefit_m7/proprietary/lib/hw/radio.fm.mt6735.so:system/lib/hw/radio.fm.mt6735.so \
+    vendor/ark/benefit_m7/proprietary/lib/hw/radio.fm.mt6735m.so:system/lib/hw/radio.fm.mt6735m.so \
     vendor/ark/benefit_m7/proprietary/etc/firmware/mt6627/mt6627_fm_v1_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v1_coeff.bin \
     vendor/ark/benefit_m7/proprietary/etc/firmware/mt6627/mt6627_fm_v1_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v1_patch.bin \
     vendor/ark/benefit_m7/proprietary/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin \
@@ -234,8 +234,8 @@ PRODUCT_COPY_FILES += \
     vendor/ark/benefit_m7/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
     vendor/ark/benefit_m7/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
     vendor/ark/benefit_m7/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
-    vendor/ark/benefit_m7/proprietary/lib/hw/camera.mt6735.so:system/lib/hw/camera.mt6735.so \
-    vendor/ark/benefit_m7/proprietary/lib64/hw/camera.mt6735.so:system/lib64/hw/camera.mt6735.so \
+    vendor/ark/benefit_m7/proprietary/lib/hw/camera.mt6735m.so:system/lib/hw/camera.mt6735m.so \
+    vendor/ark/benefit_m7/proprietary/lib64/hw/camera.mt6735m.so:system/lib64/hw/camera.mt6735m.so \
 #    vendor/ark/benefit_m7/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
 #    vendor/ark/benefit_m7/proprietary/lib64/libaudiocompensationfilter.so:system/lib64/libaudiocompensationfilter.so \
 #    vendor/ark/benefit_m7/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
@@ -295,8 +295,8 @@ PRODUCT_COPY_FILES += \
     vendor/ark/benefit_m7/proprietary/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
     vendor/ark/benefit_m7/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/ark/benefit_m7/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
-    vendor/ark/benefit_m7/proprietary/lib/hw/audio.primary.mt6735.so:system/lib/hw/audio.primary.mt6735.so \
-    vendor/ark/benefit_m7/proprietary/lib64/hw/audio.primary.mt6735.so:system/lib64/hw/audio.primary.mt6735.so \
+    vendor/ark/benefit_m7/proprietary/lib/hw/audio.primary.mt6735m.so:system/lib/hw/audio.primary.mt6735m.so \
+    vendor/ark/benefit_m7/proprietary/lib64/hw/audio.primary.mt6735m.so:system/lib64/hw/audio.primary.mt6735m.so \
     vendor/ark/benefit_m7/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
     vendor/ark/benefit_m7/proprietary/bin/meta_tst:system/bin/meta_tst \
     vendor/ark/benefit_m7/proprietary/bin/factory:system/bin/factory \
@@ -304,10 +304,10 @@ PRODUCT_COPY_FILES += \
     vendor/ark/benefit_m7/proprietary/lib64/libminiui.so:system/lib64/libminiui.so \
     vendor/ark/benefit_m7/proprietary/lib64/libacdk.so:system/lib64/libacdk.so \
     vendor/ark/benefit_m7/proprietary/res/sound/ringtone.wav:system/res/sound/ringtone.wav \
-    vendor/ark/benefit_m7/proprietary/lib/hw/lights.mt6735.so:system/lib/hw/lights.mt6735.so \
-    vendor/ark/benefit_m7/proprietary/lib64/hw/lights.mt6735.so:system/lib64/hw/lights.mt6735.so \
-    vendor/ark/benefit_m7/proprietary/lib/hw/memtrack.mt6735.so:system/lib/hw/memtrack.mt6735.so \
-    vendor/ark/benefit_m7/proprietary/lib64/hw/memtrack.mt6735.so:system/lib64/hw/memtrack.mt6735.so \
+    vendor/ark/benefit_m7/proprietary/lib/hw/lights.mt6735m.so:system/lib/hw/lights.mt6735m.so \
+    vendor/ark/benefit_m7/proprietary/lib64/hw/lights.mt6735m.so:system/lib64/hw/lights.mt6735m.so \
+    vendor/ark/benefit_m7/proprietary/lib/hw/memtrack.mt6735m.so:system/lib/hw/memtrack.mt6735m.so \
+    vendor/ark/benefit_m7/proprietary/lib64/hw/memtrack.mt6735m.so:system/lib64/hw/memtrack.mt6735m.so \
     vendor/ark/benefit_m7/proprietary/bin/emdlogger1:system/bin/emdlogger1 \
     vendor/ark/benefit_m7/proprietary/bin/mdlogger:system/bin/mdlogger \
     vendor/ark/benefit_m7/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
